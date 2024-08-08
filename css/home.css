@@ -1,0 +1,36 @@
+.titleBG {
+    width: 100%;
+    height: 175px;
+    background-image: url('../img/titleBG.png');
+    background-repeat: repeat-x;
+    animation: titleBGanim 0.5s linear infinite;
+    background-position: center;
+}
+
+@keyframes titleBGanim {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 64px;
+    }
+}
+
+.realismStudiosTitle {
+    text-align: center;
+    font-family: Mario256;
+    font-size: 64px;
+    animation: realismStudiosTitleAnim 1.25s linear infinite;
+    text-shadow: 5px 8px #0000005b;
+}
+
+@keyframes realismStudiosTitleAnim {
+    0% { color: #e81416;}
+    14% { color: #ffa500;}
+    28% { color: #faeb36;}
+    42% { color: #79c314;}
+    56% { color: #487de7;}
+    70% { color: #4b369d;}
+    84% { color: #70369d;}
+    100% { color: #e81416;}
+}

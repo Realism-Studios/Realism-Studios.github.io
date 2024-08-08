@@ -1,0 +1,9 @@
+.teamBG {
+    width: 250px;
+    height: 250px;
+    background-color: tan;
+}
+
+.teamBG:hover {
+    box-shadow: 6px 6px #00000066;
+}

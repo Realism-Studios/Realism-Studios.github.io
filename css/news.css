@@ -1,0 +1,17 @@
+.newsTitle {
+    text-align: center;
+    font-family: Mario256;
+    font-size: 64px;
+    animation: newsTitleAnim 300s linear infinite;
+    text-shadow: 5px 8px #0000005b;
+}
+
+@keyframes newsTitleAnim {
+    0% { color: #e81416;}
+    14% { color: #ffa500;}
+    38% { color: #faeb36;}
+    47% { color: #79c314;}
+    52% { color: #487de7;}
+    87% { color: #4b369d;}
+    92% { color: #70369d;}
+}
